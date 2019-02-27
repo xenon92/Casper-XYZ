@@ -2266,7 +2266,11 @@ Usage (In Ghost editor):
     border-radius: 100%;
 }
 
-.site-footer-nav a:first-of-type:before {
+.site-footer-nav a:nth-of-type(2):before {
+    display: none;
+}
+
+.site-footer-nav a:nth-of-type(1):before {
     display: none;
 }
 
